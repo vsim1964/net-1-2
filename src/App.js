@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-// import ShopItemFunc from './Components/ShopItemFunc/ShopItemFunc';
 import ShopItemClass from './Components/ShopItemClass/ShopItemClass';
 
 const item = {
@@ -20,7 +19,6 @@ function App() {
           <div className="highlight-overlay"></div>
         </div>
         <div className="window">
-          {/*<ShopItemFunc item={item}/>*/}
           <ShopItemClass item={item}/>
         </div>
       </div>
